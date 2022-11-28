@@ -177,46 +177,46 @@ article > ul {
    margin:0;
    padding:0;
 }
-article > ul > li > img:nth-child(1){
+#section2 article > ul > li > img:nth-child(1){
     position: absolute;
     height:30%;
     width:100%
     
 }
 
-article > ul > li:nth-child(2){
+#section2 article > ul > li:nth-child(2){
     position: absolute;
     top:35%;
     left:10%;
     
 }
-article > ul > li:nth-child(3){
+#section2 article > ul > li:nth-child(3){
     position: absolute;
     top:35%;
     left:50%;
     
 }
-article > ul > li:nth-child(4){
+#section2 article > ul > li:nth-child(4){
     position: absolute;
     top:45%;
     left:12%;
     width:90%;
     font-size:24px;
 }
-article > ul > li:nth-child(5){
+#section2 article > ul > li:nth-child(5){
     position: absolute;
     top:60%;
     left:5%;
     width:90%;
 }
-article > ul > li:nth-child(6){
+#section2 article > ul > li:nth-child(6){
     position: absolute;
     top:85%;
     left:5%;
     width:13%;
     height:25%;
 }
-article > ul > li:nth-child(7){
+#section2 article > ul > li:nth-child(7){
     position: absolute;
     top:85%;
     left:29%;
@@ -249,7 +249,83 @@ article > ul > li:nth-child(7){
     position:absolute;
     width:100%;
     height:100vh;
-    background-color:blue;
+    background-color:white;
     top:350vh;
 }
 
+#section3 #article7{
+    
+    width:25%;
+    height:17%;
+    border:1px solid;
+    position:absolute;
+    top:25%;
+    left:10%;
+    background-color:grey;
+}
+#section3 #article8{
+    
+    width:25%;
+    height:17%;
+    border:1px solid;
+    position:absolute;
+    top:25%;
+    left:37%;
+    background-color:grey;
+}
+#section3 #article9{
+    
+    width:25%;
+    height:17%;
+    border:1px solid;
+    position:absolute;
+    top:25%;
+    left:64%;
+    background-color:grey;
+}
+
+#section3 article ul li img:first-of-type{
+    
+    width:25%;
+    height:55%;
+}
+#section3 article ul li:first-of-type{
+    
+    position:absolute;
+    left:5%;
+    top:10%;
+}
+#section3 article ul li:nth-child(2){
+    
+    position:absolute;
+    left:40%;
+    top:10%;
+    font-size:24px;
+}
+#section3 article ul li:nth-child(3){
+    
+    position:absolute;
+    left:40%;
+    top:35%;
+    width:60%;
+}
+#section3 article ul li:nth-child(4){
+    
+    position:absolute;
+    left:40%;
+    top:70%;
+}
+
+/*section4*/
+
+
+#section4{
+    position:absolute;
+    width:100%;
+    height:100vh;
+    background-color:blue;
+    top:420vh;
+}
+#section4 a {
+    left:80%;
+}
