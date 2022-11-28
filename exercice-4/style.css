@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+
+header{
+    position:absolute;
+    height:10%;
+}
+
+article{
+    position :absolute;
+    height:45%;
+    overflow:hidden;
+
+}
+
+
+#article-1 {
+    top:10%;
+    width:55%;
+}
+#article-2 {
+    top:10%;
+    width:33%;
+    left:60%;
+}
+
+#article-3{
+    top:55%;
+    width:30%;
+}
+
+#article-4{
+    top:55%;
+    width:30%;
+    left:33%;
+}
+
+#article-5{
+    top:55%;
+    width:30%;
+    left:66%;
+}
