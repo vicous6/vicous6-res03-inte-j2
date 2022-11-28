@@ -94,7 +94,7 @@ h1{
 #section2{
     background:color;
     width:100%;
-    height:100%;
+    height:250%;
     position:absolute;
     top:100vH;
     background-color:grey;
@@ -114,12 +114,57 @@ section>a{
 
 /*article*/
 
-article{
+#article1{
     position:absolute;
     width:25%;
-    height:70%;
+    height:30%;
     top:20%;
-    left:10%;
+    left:5%;
+    border:1px solid;
+    
+}
+#article2{
+    position:absolute;
+    width:25%;
+    height:30%;
+    top:20%;
+    left:35%;
+    border:1px solid;
+    
+}
+#article3{
+    position:absolute;
+    width:25%;
+    height:30%;
+    top:20%;
+    left:65%;
+    border:1px solid;
+    
+}
+#article4{
+    position:absolute;
+    width:25%;
+    height:30%;
+    top:55%;
+    left:5%;
+    border:1px solid;
+    
+}
+#article5{
+    position:absolute;
+    width:25%;
+    height:30%;
+    top:55%;
+    left:35%;
+    border:1px solid;
+    
+}
+#article6{
+    position:absolute;
+    width:25%;
+    height:30%;
+    top:55%;
+    left:65%;
     border:1px solid;
     
 }
@@ -138,6 +183,7 @@ article > ul > li > img:nth-child(1){
     width:100%
     
 }
+
 article > ul > li:nth-child(2){
     position: absolute;
     top:35%;
@@ -153,13 +199,57 @@ article > ul > li:nth-child(3){
 article > ul > li:nth-child(4){
     position: absolute;
     top:45%;
-    left:20%;
-    width:70%;
+    left:12%;
+    width:90%;
+    font-size:24px;
 }
 article > ul > li:nth-child(5){
     position: absolute;
-    top:55%;
+    top:60%;
     left:5%;
     width:90%;
+}
+article > ul > li:nth-child(6){
+    position: absolute;
+    top:85%;
+    left:5%;
+    width:13%;
+    height:25%;
+}
+article > ul > li:nth-child(7){
+    position: absolute;
+    top:85%;
+    left:29%;
+    width:22%;
+    height:25%;
+}
+#section2 > button{
+    width:20%;
+    position:absolute;
+}
+#section2 > button:first-of-type{
+   width:15%;
+    height:3%;
+    top:90%;
+    left:30%;
+  
+   
+}
+#section2  button:last-of-type{
+    width:15%;
+    height:3%;
+    top:90%;
+    left:50%;
+  
+   
+}
+/*section 3*/
+
+#section3{
+    position:absolute;
+    width:100%;
+    height:100vh;
+    background-color:blue;
+    top:350vh;
 }
 
