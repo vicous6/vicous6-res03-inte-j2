@@ -1,0 +1,42 @@
+#one{
+    
+    height: 10vh;
+    background-color:blue;
+}
+#two{
+    
+    height: 75vh;
+     background-color:green
+}
+#three{
+    
+    height: 15vh;
+     background-color:red
+}
+
+#two div{
+    
+    background-color:yellow;
+    height:38vh;
+    width:30vw;
+    
+    position:relative;
+}
+
+#four{
+    
+    top:20vh;
+    left:2vw;
+}
+
+#five{
+    
+    left:34vw;
+    bottom:8vw;
+}
+
+#six{
+    
+left:66vw;
+bottom : 55.5vh;
+}

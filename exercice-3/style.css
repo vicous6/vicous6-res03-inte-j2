@@ -1,0 +1,52 @@
+body{margin:0;
+padding:0;}
+
+#one{
+    
+    height: 10vh;
+    background-color:blue;
+}
+#two{
+    
+    height: 75vh;
+     background-color:green
+}
+#three{
+    
+    height: 15vh;
+     background-color:red
+}
+
+#two div{
+    
+    background-color:yellow;
+    height:20vh;
+    width:20vw;
+    
+    position:absolute;
+}
+
+#four{
+    
+    top:15vh;
+    left:2vw;
+}
+
+#five{
+    top:15vh;
+    left:26vw;
+   
+}
+
+#six{
+    
+
+bottom : 65vh;
+left:51vw
+}
+
+#seven{
+   left:75vw;
+bottom : 65vh; 
+    
+}
