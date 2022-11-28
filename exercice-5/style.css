@@ -1,4 +1,165 @@
-header{
-    height:30px;
-    width:20px;
+body{
+    margin:0;
+    padding:0;
 }
+header{
+    height:9vH;
+    width:100vW;
+    background-color:brown;
+    margin:0;
+    padding:0;
+    
+}
+
+header> a{
+    position:absolute;
+    left:3%;
+     top:3%;
+     font-size:20px;
+}
+header> button{
+    position:absolute;
+    left:93%;
+    top:2%;
+    height:6%;
+    width:6%;
+}
+
+/*Partie nav*/
+body>nav>ul>li {
+    position:absolute;
+   list-style-type: none;
+}
+
+body>nav>ul>li:nth-child(1) {
+    font-size :40px;
+    top:14%;
+    left:7%;
+}
+body>nav>ul>li:nth-child(2) {
+    font-size :18px;
+    top:16%;
+    left:54%;
+}
+body>nav>ul>li:nth-child(3) {
+    font-size :18px;
+    top:16%;
+    left:61%;
+}
+body>nav>ul>li:nth-child(4) {
+    font-size :18px;
+    top:16%;
+    left:67%;
+}
+body>nav>ul>li:nth-child(5) {
+    font-size :18px;
+    top:16%;
+    left:73%;
+}
+body>nav>ul>li:nth-child(6) {
+    font-size :18px;
+    top:16%;
+    left:79%;
+}
+body>nav>ul>li:nth-child(7) {
+    font-size :18px;
+    top:16%;
+    left:85%;
+}
+body>nav>ul>li:nth-child(8) {
+    font-size :18px;
+    top:16%;
+    left:91%;
+    width:5%;
+    height:5%;
+}
+#loupe{
+    height:100%;
+    width:40%;
+}
+
+/*section 1*/
+
+h1{
+    position:absolute;
+    width:50%;
+    height:20%;
+    font-size:80px;
+    left:22%;
+    top:33%;
+}
+
+/*section 2*/
+
+#section2{
+    background:color;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:100vH;
+    background-color:grey;
+}
+section>h2{
+    position:absolute;
+    top:9%;
+    left:9%;
+    font-size:32px;
+}
+section>a{
+    position:absolute;
+    top:13%;
+    left:87%;
+    font-size:26px;
+}
+
+/*article*/
+
+article{
+    position:absolute;
+    width:25%;
+    height:70%;
+    top:20%;
+    left:10%;
+    border:1px solid;
+    
+}
+li{
+    list-style-type:none;
+}
+article > ul {
+   width:100%;
+   height:100%;
+   margin:0;
+   padding:0;
+}
+article > ul > li > img:nth-child(1){
+    position: absolute;
+    height:30%;
+    width:100%
+    
+}
+article > ul > li:nth-child(2){
+    position: absolute;
+    top:35%;
+    left:10%;
+    
+}
+article > ul > li:nth-child(3){
+    position: absolute;
+    top:35%;
+    left:50%;
+    
+}
+article > ul > li:nth-child(4){
+    position: absolute;
+    top:45%;
+    left:20%;
+    width:70%;
+}
+article > ul > li:nth-child(5){
+    position: absolute;
+    top:55%;
+    left:5%;
+    width:90%;
+}
+
